@@ -53,17 +53,17 @@ state | '<<' | '>>' | '||' | '&&' | '|' | '&' | '<' | '>' | WORD
 
 - [x] Handle " (double quote) which should prevent the shell from interpreting the meta-characters in the quoted sequence except for $ (dollar sign).
 
-- [ ] Search and launch the right executable (based on the PATH variable or using a relative or an absolute path
+- [x] Search and launch the right executable (based on the PATH variable or using a relative or an absolute path
 
-- [ ]  < should redirect input.
+- [x]  < should redirect input.
 
-- [ ]  > should redirect output.
+- [x]  > should redirect output.
 
 - [x] << should be given a delimiter, then read the input until a line containing the delimiter is seen. However, it doesn’t have to update the history!
 
-- [ ] >> should redirect output in append mode.
+- [x] >> should redirect output in append mode.
 
-- [ ] Implement pipes (| character). The output of each command in the pipeline is connected to the input of the next command via a pipe.
+- [x] Implement pipes (| character). The output of each command in the pipeline is connected to the input of the next command via a pipe.
 
 ### Your shell must implement the following builtins:
 
@@ -85,12 +85,12 @@ state | '<<' | '>>' | '||' | '&&' | '|' | '&' | '<' | '>' | WORD
 
 - [x] PODE SER INPUT E OUTPUT 
 
-- [x?] Exit after export leaks
+- [x] Exit after export leaks
 
-- [ ] Finish interpolation
+- [x] Finish interpolation
 
-- [ ] Make redirections work with child processes
+- [x] Make redirections work with child processes
 
-- [ ] Heredoc doesn't close
+- [x] Heredoc doesn't close
 
-- [ ] Heredoc doesn't break after SIGINT
+- [x] Heredoc doesn't break after SIGINT
